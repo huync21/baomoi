@@ -1,0 +1,125 @@
+:root{
+    --text-color: rgb(47,46,44);
+    --white-color:#fff;
+    --primary-color:rgb(47,161,179);
+    --height-header:106px;
+    --height-header-with-search:66px;
+    --primary-color-hover:rgb(43,148,165);
+    --primary-color-text:rgb(102,188,219);
+    --news__meta-color:rgb(194, 199, 201);
+    --orange-color:#db562b;
+    --box-color:rgb(247,247,247);
+    --border-color:rgb(229, 234, 236);
+    --footer-info-color:rgb(139, 134, 134);
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.grid{
+    width: 970px;
+    max-width: 100%;    
+    margin: 0 auto;
+}
+.sidebar-grid{
+    width: 300px;
+    max-width: 100%;
+    margin:0 auto;
+}
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.news__meta{
+    font-size: 1.3rem;
+    color: var(--news__meta-color);
+}
+.news__meta-source{
+    text-decoration: none;
+    color: var(--news__meta-color);
+    margin-right: 10px;
+}
+.news__meta-source:hover{
+    color: var(--primary-color-text);
+}
+.news__meta-relate{
+    text-decoration: none;
+    color: var(--news__meta-color);
+    margin-left: 10px;
+}
+.news__meta-relate:hover{
+    color: var(--primary-color-text);
+}
+.news__heading{
+    margin-top: -6px;
+}
+
+.news__img {
+    border-radius: 5px;
+}
+.news__heading:hover {
+    color: var(--primary-color-text);
+}
+.news__heading-link{
+    text-decoration: none;
+    display: block;
+    color: var(--text-color);
+}
+.news__img-link{
+    display: block;
+}
+.news:hover .news__heading{
+    color:var(--primary-color-text) ;
+}
+
+/* small-list */
+.small-list{
+
+ }
+ .small-list .news {
+     display: flex;
+     padding-top: 7.5px ;
+     margin-top: 7.5px;
+ 
+ }   
+.small-list .news:first-child{
+     padding-top: 0;
+     margin-top: 0;
+ }
+ .small-list .news__img{
+     width: 60px;
+     height: 60px;
+ }
+ .small-list .news__text {
+     margin-left: 10px;
+ }
+ .small-list .news__heading {
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+     margin-bottom: 4px;
+ }
+
+ 
+/* animation for news */
+.news__img{
+    transition: transform .7s;  
+
+}
+.news__img:hover{
+    transform: scale(1.06);
+}
+.zoom-img-container{
+    overflow: hidden;
+    border-radius:5px;
+}
+
+/* nhớ cái div cho vào cái img__news để overflow hidden và nhớ kinh nghiệm làm lần sau hãy cho 1 cái div chứa các cái ảnh rồi chỉnh
+độ to các div rồi cho ảnh kích thước bằng 100% của cái div đấy */

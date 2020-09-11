@@ -1,0 +1,2042 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\css\base.css">
+    <link rel="stylesheet" href="assets\css\main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="assets/fonts/fontawesome-free-5.13.0-web/css/all.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+
+            <!-- header with search -->
+            <div class="grid">
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <a href="" class="header__logo-link"><img src="https://baomoi-static.zadn.vn/web/styles/img/BM_2020.png" alt="logo bao moi" class="header__logo-img"></a>
+                    </div>
+
+                    <div class="header__search">
+                        <input class="header__search-input" type="text" placeholder="Nhập nội dung tìm kiếm">
+                        <button class="header__search-btn">
+                            <i class="header__search-icon fas fa-search "></i>
+                        </button>
+                    </div>
+
+                    <div class="header-with-search__icons">
+                        <button class="header-with-search__icons-btn header-with-search__icons-btn-user"><i class="header-with-search__icons-icon far fa-user"></i>
+                        <div class="header-with-search-icons-btn-user-dropdown">
+                            <h3 class="header-with-search-icons-btn-user-dropdown-heading">Đăng nhập</h3>
+                            <p class="header-with-search-icons-btn-user-dropdown-description">Đăng nhập để trải nghiệm những tính năng hữu ích</p>
+                            <a href="#" class="zalo-link"><img src="assets\imgs\zalo.png" alt="zalo img" class="zalo-img"></a>
+                        </div>
+                        </button>
+                        <button class="header-with-search__icons-btn header-with-search__icons-btn-bell"><i class="header-with-search__icons-icon far fa-bell"></i>
+                        <div class="triangle"></div>
+                        </button>
+                        <button class="header-with-search__icons-btn"><i class="header-with-search__icons-icon fas fa-mobile-alt"></i></button>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- header navbar -->
+        <div class="header__navbar">
+            <div class="grid">
+                <div class="header__navbar-container">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-list-item header__navbar-list-item--active"><a class="header__navbar-list-item-link" href="#">NÓNG</a></li>
+                        <li class="header__navbar-list-item"><a class="header__navbar-list-item-link" href="#">MỚI</a></li>
+                        <li class="header__navbar-list-item"><a class="header__navbar-list-item-link" href="#">VIDEO</a></li>
+                        <li class="header__navbar-list-item"><a class="header__navbar-list-item-link" href="#">CHỦ ĐỀ</a></li>
+                    </ul>
+
+                    <ul class="header__navbar-hashtag-list">
+                        <li class="header__navbar-hashtag-list-item"><a class="header__navbar-hashtag-list-item-link" href=""> # Năng lượng tích cực </a> </li>
+                        <li class="header__navbar-hashtag-list-item"><a class="header__navbar-hashtag-list-item-link" href=""> # Khám phá Việt Nam </a> </li>
+                        <li class="header__navbar-hashtag-list-item"><a class="header__navbar-hashtag-list-item-link" href=""> # Phòng chống dịch COVID-19</a> </li>
+                        <li class="header__navbar-hashtag-list-item"><a class="header__navbar-hashtag-list-item-link" href=""> # Xây dựng Đảng </a> </li>
+                    </ul>
+                    <!-- Navbar menu -->
+                    <div class="nav__menu">
+                        <button class="nav__menu-btn ">
+                        <i class="fas fa-bars navbar__menu-icon"></i>
+                        </button>
+                        
+                        <div class="nav__menu-full" style="width:100vw;">
+
+                        <div class="nav__menu-full-container">
+                            <div class="grid">
+                                <ul class="nav__menu-full-row">
+                                    <li class="nav__menu-full-list">
+                                        <ul class="nav__menu-list">
+                                        <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">XÃ HỘI</a></li>
+                                        <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Thời sự</a></li>
+                                        <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Giao thông</a></li>
+                                        <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Môi trường-Khí hậu</a></li> 
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="nav__menu-full-list">
+                                        <ul class="nav__menu-list">
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">THẾ GIỚI</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="nav__menu-full-list">
+                                        <ul class="nav__menu-list">
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">VĂN HÓA</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Nghệ thuật</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Ẩm thực</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Du lịch</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="nav__menu-full-list">
+                                        <ul class="nav__menu-list">
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">KINH TẾ</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Lao động-việc làm</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Tài chính</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Chứng khoán</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Kinh doanh</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="nav__menu-full-list">
+                                        <ul class="nav__menu-list">
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">GIÁO DỤC</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Học bổng-Du lịch</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Đào tạo-Thi cử</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                
+                                <ul class="nav__menu-full-row">
+                                    <li class="nav__menu-full-list">
+                                        <ul class="nav__menu-list">
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">THỂ THAO</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Bóng đá quốc tế</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Bóng đá Việt Nam</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Quần vợt</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="nav__menu-full-list">
+                                        <ul class="nav__menu-list">
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">GIẢI TRÍ</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Âm nhạc</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Thời trang</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Điện ảnh-Truyền hình</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="nav__menu-full-list">
+                                        <ul class="nav__menu-list">
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">PHÁP LUẬT</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">An ninh-Trật tự</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Hình sự-Dân sự</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="nav__menu-full-list">
+                                        <ul class="nav__menu-list">
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">CÔNG NGHỆ</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">CNTT-Viễn thông</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Thiết bị-Phần cứng</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="nav__menu-full-list">
+                                        <ul class="nav__menu-list">
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">KHOA HỌC</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="nav__menu-full-row">
+                                    <li class="nav__menu-full-list">
+                                        <ul class="nav__menu-list">
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">ĐỜI SỐNG</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Dinh dưỡng-Làm đẹp</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Tình yêu-Hôn nhân</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Sức khỏe-Y tế</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav__menu-full-list">
+                                        <ul class="nav__menu-list">
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">XE CỘ</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav__menu-full-list">
+                                        <ul class="nav__menu-list">
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">NHÀ ĐẤT</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Quản lý-Quy hoạch</a></li>
+                                            <li class="nav__menu-item"><a href="#" class="nav__menu-item-link">Không gian-Kiến trúc</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </header>
+        
+        <!-- Body layout -->
+        <div class="body">
+            <div class="grid">
+                
+                <div class="body__advertisement">
+                    <img src="assets\imgs\ads.jpg" alt="ads">
+                    <div class="body__advertisement__close-btn">
+                        <span class="body__advertisement__close-btn-text">Tắt quảng cáo</span>
+                        <i class="far fa-times-circle body__advertisement__close-btn-icon "></i>
+                    </div>
+                </div>
+                
+                <div class="body__container">
+                    <div class="main-column">
+                        <div class="hot-news">
+                            <div class="hot-news__rank1">
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hot-news__rank2">
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+
+                            <div class="news">
+                                <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                <div class="news__text">
+                                <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                    <div class="news__meta">
+                                        <a href="" class="news__meta-source">VOA</a>
+                                        <span class="news__meta-time">2 giờ</span>
+                                        <a href="" class="news__meta-relate">40 liên quan</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Phòng chống covid 19 -->
+                            <div class="topic">
+                                <a href="" class="topic__heading">PHÒNG CHỐNG DỊCH COVID-19</a>
+                                <div class="topic__demo">
+                                    <a href="" class="topic__img-link"><img src="assets\imgs\Phong chong dich covid 19.jpg" alt="" class="topic__img"></a>
+                                    <div class="topic__demo-right-side">
+                                        <div class="news">
+                                            <div class="news__text">
+                                            <a class="news__heading-link" href=""><h2 class="news__heading">Hà Nội yêu cầu tạm đình chỉ các nhà thuốc không tuân thủ đúng quy định giãn cách xã hội?</h2></a>
+                                                <div class="news__meta">
+                                                    <a href="" class="news__meta-source">Tin tức TTXVN</a>
+                                                    <span class="news__meta-time">31 phút</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="news">
+                                            <div class="news__text">
+                                            <a class="news__heading-link" href=""><h2 class="news__heading">Hà Nội yêu cầu tạm đình chỉ các nhà thuốc không tuân thủ đúng quy định giãn cách xã hội?</h2></a>
+                                                <div class="news__meta">
+                                                    <a href="" class="news__meta-source">Tin tức TTXVN</a>
+                                                    <span class="news__meta-time">31 phút</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="news">
+                                            <div class="news__text">
+                                            <a class="news__heading-link" href=""><h2 class="news__heading">Hà Nội yêu cầu tạm đình chỉ các nhà thuốc không tuân thủ đúng quy định giãn cách xã hội?</h2></a>
+                                                <div class="news__meta">
+                                                    <a href="" class="news__meta-source">Tin tức TTXVN</a>
+                                                    <span class="news__meta-time">31 phút</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+                                        
+                                    </div>
+                                    
+                                </div>
+
+                                <a href="" class="topic__see-all">XEM TẤT CẢ</a>      
+                                
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- Năng lượng tích cực -->
+                            <div class="topic">
+                                <a href="" class="topic__heading">NĂNG LƯỢNG TÍCH CỰC</a>
+                                <div class="topic__demo">
+                                    <a href="" class="topic__img-link"><img src="assets\imgs\Phong chong dich covid 19.jpg" alt="" class="topic__img"></a>
+                                    <div class="topic__demo-right-side">
+                                        <div class="news">
+                                            <div class="news__text">
+                                            <a class="news__heading-link" href=""><h2 class="news__heading">Hà Nội yêu cầu tạm đình chỉ các nhà thuốc không tuân thủ đúng quy định giãn cách xã hội?</h2></a>
+                                                <div class="news__meta">
+                                                    <a href="" class="news__meta-source">Tin tức TTXVN</a>
+                                                    <span class="news__meta-time">31 phút</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="news">
+                                            <div class="news__text">
+                                            <a class="news__heading-link" href=""><h2 class="news__heading">Hà Nội yêu cầu tạm đình chỉ các nhà thuốc không tuân thủ đúng quy định giãn cách xã hội?</h2></a>
+                                                <div class="news__meta">
+                                                    <a href="" class="news__meta-source">Tin tức TTXVN</a>
+                                                    <span class="news__meta-time">31 phút</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="news">
+                                            <div class="news__text">
+                                            <a class="news__heading-link" href=""><h2 class="news__heading">Hà Nội yêu cầu tạm đình chỉ các nhà thuốc không tuân thủ đúng quy định giãn cách xã hội?</h2></a>
+                                                <div class="news__meta">
+                                                    <a href="" class="news__meta-source">Tin tức TTXVN</a>
+                                                    <span class="news__meta-time">31 phút</span>
+                                                </div>
+                                            </div>
+                                        </div>                 
+                                    </div>
+                                    
+                                </div>
+
+                                <a href="" class="topic__see-all">XEM TẤT CẢ</a>      
+                                
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>  
+
+                                <div class="slide">
+                                            
+                                </div>
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Khám phá Việt Nam -->
+                            <div class="topic">
+                                <a href="" class="topic__heading">KHÁM PHÁ VIỆT NAM</a>
+                                <div class="topic__demo">
+                                    <a href="" class="topic__img-link"><img src="assets\imgs\Phong chong dich covid 19.jpg" alt="" class="topic__img"></a>
+                                    <div class="topic__demo-right-side">
+                                        <div class="news">
+                                            <div class="news__text">
+                                            <a class="news__heading-link" href=""><h2 class="news__heading">Hà Nội yêu cầu tạm đình chỉ các nhà thuốc không tuân thủ đúng quy định giãn cách xã hội?</h2></a>
+                                                <div class="news__meta">
+                                                    <a href="" class="news__meta-source">Tin tức TTXVN</a>
+                                                    <span class="news__meta-time">31 phút</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="news">
+                                            <div class="news__text">
+                                            <a class="news__heading-link" href=""><h2 class="news__heading">Hà Nội yêu cầu tạm đình chỉ các nhà thuốc không tuân thủ đúng quy định giãn cách xã hội?</h2></a>
+                                                <div class="news__meta">
+                                                    <a href="" class="news__meta-source">Tin tức TTXVN</a>
+                                                    <span class="news__meta-time">31 phút</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="news">
+                                            <div class="news__text">
+                                            <a class="news__heading-link" href=""><h2 class="news__heading">Hà Nội yêu cầu tạm đình chỉ các nhà thuốc không tuân thủ đúng quy định giãn cách xã hội?</h2></a>
+                                                <div class="news__meta">
+                                                    <a href="" class="news__meta-source">Tin tức TTXVN</a>
+                                                    <span class="news__meta-time">31 phút</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+                                        
+                                    </div>
+                                    
+                                </div>
+
+                                <a href="" class="topic__see-all">XEM TẤT CẢ</a>      
+                                
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news">
+                                    <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                    <div class="news__text">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                                <div class="news news--4-imgs">
+                                    <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                    <div class="news__imgs-list">
+                                         <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                         <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                         <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                         <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                        </div>
+                                        <div class="news__meta">
+                                            <a href="" class="news__meta-source">VOA</a>
+                                            <span class="news__meta-time">2 giờ</span>
+                                            <a href="" class="news__meta-relate">40 liên quan</a>
+                                        </div>
+                                </div>
+
+                                <a class="see-more">
+                                    <span>XEM THÊM</span>
+                                    <i class="see-more__icon fas fa-chevron-right"></i>
+                                </a>
+
+                                
+
+
+                            </div>
+
+                        
+                            
+
+                        </div>
+                        
+                
+                    </div>
+        
+                    <div class="side-bar">
+                        <div class="small-list side-bar__box1">
+                            <div class="news">
+                                <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                <div class="news__text">
+                                <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19 </h2></a>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="news">
+                                <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                <div class="news__text">
+                                <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                    <div class="news__meta">
+                                        <a href="" class="news__meta-source">VOA</a>
+                                        <span class="news__meta-time">2 giờ</span>
+                                        <a href="" class="news__meta-relate">40 liên quan</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="news">
+                                <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                <div class="news__text">
+                                <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                    <div class="news__meta">
+                                        <a href="" class="news__meta-source">VOA</a>
+                                        <span class="news__meta-time">2 giờ</span>
+                                        <a href="" class="news__meta-relate">40 liên quan</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="news">
+                                <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                <div class="news__text">
+                                <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                    <div class="news__meta">
+                                        <a href="" class="news__meta-source">VOA</a>
+                                        <span class="news__meta-time">2 giờ</span>
+                                        <a href="" class="news__meta-relate">40 liên quan</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="news">
+                                <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                <div class="news__text">
+                                <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                    <div class="news__meta">
+                                        <a href="" class="news__meta-source">VOA</a>
+                                        <span class="news__meta-time">2 giờ</span>
+                                        <a href="" class="news__meta-relate">40 liên quan</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="news">
+                                <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                <div class="news__text">
+                                <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                    <div class="news__meta">
+                                        <a href="" class="news__meta-source">VOA</a>
+                                        <span class="news__meta-time">2 giờ</span>
+                                        <a href="" class="news__meta-relate">40 liên quan</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="news">
+                                <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                <div class="news__text">
+                                <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                    <div class="news__meta">
+                                        <a href="" class="news__meta-source">VOA</a>
+                                        <span class="news__meta-time">2 giờ</span>
+                                        <a href="" class="news__meta-relate">40 liên quan</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="news">
+                                <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                <div class="news__text">
+                                <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                    <div class="news__meta">
+                                        <a href="" class="news__meta-source">VOA</a>
+                                        <span class="news__meta-time">2 giờ</span>
+                                        <a href="" class="news__meta-relate">40 liên quan</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="news">
+                                <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                <div class="news__text">
+                                <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                    <div class="news__meta">
+                                        <a href="" class="news__meta-source">VOA</a>
+                                        <span class="news__meta-time">2 giờ</span>
+                                        <a href="" class="news__meta-relate">40 liên quan</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="news">
+                                <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                <div class="news__text">
+                                <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                    <div class="news__meta">
+                                        <a href="" class="news__meta-source">VOA</a>
+                                        <span class="news__meta-time">2 giờ</span>
+                                        <a href="" class="news__meta-relate">40 liên quan</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="news">
+                                <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                <div class="news__text">
+                                <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                    <div class="news__meta">
+                                        <a href="" class="news__meta-source">VOA</a>
+                                        <span class="news__meta-time">2 giờ</span>
+                                        <a href="" class="news__meta-relate">40 liên quan</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="side-bar__advertisement">
+                            <div class="sidebar-grid">
+                                <a href=""><img class="samsung-ads-img" src="assets\imgs\ads-samsung.png" alt="samsung ads"></a>
+                            </div>
+                            
+
+                        </div>
+
+                        <div class="side-bar__HCM-learn">
+                            <div class="sidebar-grid">
+
+                                <a href=""><img class="HCM-learn-img" src="assets\imgs\HCM.png" alt="hoc tap va lam theo tam guong HCM"></a>
+                            </div>
+                            
+                        </div>
+                        <!-- Thông tin chính phủ side bar -->
+                        <div class="side-bar__box2">
+                            <div class="sidebar-grid">
+                                <a href="" class="box2__heading-link">
+                                    <img class="box2__icon" src="assets\imgs\quochuy.png" alt="">
+                                    <h3 class="title">THÔNG TIN CHÍNH PHỦ</h3>
+                                </a>
+                                <div class="box2__content">
+                                    <div class="box2__1st-item">
+                                        <a href=""><img class="box2__img" src="assets\imgs\thôngtinchinhphu.jpg" alt=""></a>    
+                                        <a class="box2__1st-item-heading-link" href=""><h3>Công bố quyết định của Thủ tướng chính phủ về công tác cán bộ</h3></a>
+                                    </div>
+                                    
+                                    <div class="box2__2nd-item">
+                                        <a class="box2__2nd-item-heding-link" href=""><h3>Công bố quyết định của Ban Bí thư Trung ương Đảng về công tác cán bộ</h3></a>
+                                        <a class="box2__2nd-item-heding-link" href=""><h3>Triển khai quyết định nhân sự của Ban Bí thư Trung ương Đảng</h3></a>
+
+                                    </div>  
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <!-- covid 19 side bar -->
+                        <div class="side-bar__box3">
+
+                        </div>
+
+                        <!-- Địa phương side bar -->
+                        <div class="side-bar__box4">
+                            <div class="sidebar-grid">
+                                <div class="box4__title">
+                                    <i class=" box4__title-icon fas fa-map-marker-alt"></i>
+                                    <a class="box4__title-text" href="">ĐỊA PHƯƠNG</a>
+                                </div>
+
+                                <select name="region" class="region-select">
+                    
+                                    <option value="AN_GIANG" data-url="/tin-dia-phuong/an-giang.epi">An Giang</option>
+                                    
+                                    <option value="BA_RIA_VUNG_TAU" data-url="/tin-dia-phuong/ba-ria-vung-tau.epi">BR-VT</option>
+                                    
+                                    <option value="BAC_GIANG" data-url="/tin-dia-phuong/bac-giang.epi">Bắc Giang</option>
+                                    
+                                    <option value="BAC_KAN" data-url="/tin-dia-phuong/bac-kan.epi">Bắc Kạn</option>
+                                    
+                                    <option value="BAC_LIEU" data-url="/tin-dia-phuong/bac-lieu.epi">Bạc Liêu</option>
+                                    
+                                    <option value="BAC_NINH" data-url="/tin-dia-phuong/bac-ninh.epi">Bắc Ninh</option>
+                                    
+                                    <option value="BEN_TRE" data-url="/tin-dia-phuong/ben-tre.epi">Bến Tre</option>
+                                    
+                                    <option value="BINH_DUONG" data-url="/tin-dia-phuong/binh-duong.epi">Bình Dương</option>
+                                    
+                                    <option value="BINH_DINH" data-url="/tin-dia-phuong/binh-dinh.epi">Bình Định</option>
+                                    
+                                    <option value="BINH_PHUOC" data-url="/tin-dia-phuong/binh-phuoc.epi">Bình Phước</option>
+                                    
+                                    <option value="BINH_THUAN" data-url="/tin-dia-phuong/binh-thuan.epi">Bình Thuận</option>
+                                    
+                                    <option value="CA_MAU" data-url="/tin-dia-phuong/ca-mau.epi">Cà Mau</option>
+                                    
+                                    <option value="CAN_THO" data-url="/tin-dia-phuong/can-tho.epi">Cần Thơ</option>
+                                    
+                                    <option value="CAO_BANG" data-url="/tin-dia-phuong/cao-bang.epi">Cao Bằng</option>
+                                    
+                                    <option value="DA_NANG" data-url="/tin-dia-phuong/da-nang.epi">Đà Nẵng</option>
+                                    
+                                    <option value="DAK_LAK" data-url="/tin-dia-phuong/dak-lak.epi">Đăk Lăk</option>
+                                    
+                                    <option value="DONG_NAI" data-url="/tin-dia-phuong/dong-nai.epi">Đồng Nai</option>
+                                    
+                                    <option value="DONG_THAP" data-url="/tin-dia-phuong/dong-thap.epi">Đồng Tháp</option>
+                                    
+                                    <option value="GIA_LAI" data-url="/tin-dia-phuong/gia-lai.epi">Gia Lai</option>
+                                    
+                                    <option value="HA_GIANG" data-url="/tin-dia-phuong/ha-giang.epi">Hà Giang</option>
+                                    
+                                    <option value="HA_NAM" data-url="/tin-dia-phuong/ha-nam.epi">Hà Nam</option>
+                                    
+                                    <option value="HA_NOI" data-url="/tin-dia-phuong/ha-noi.epi">Hà Nội</option>
+                                    
+                                    <option value="HA_TINH" data-url="/tin-dia-phuong/ha-tinh.epi">Hà Tĩnh</option>
+                                    
+                                    <option value="HAI_DUONG" data-url="/tin-dia-phuong/hai-duong.epi">Hải Dương</option>
+                                    
+                                    <option value="HAI_PHONG" data-url="/tin-dia-phuong/hai-phong.epi">Hải Phòng</option>
+                                    
+                                    <option value="HOA_BINH" data-url="/tin-dia-phuong/hoa-binh.epi">Hòa Bình</option>
+                                    
+                                    <option value="HUNG_YEN" data-url="/tin-dia-phuong/hung-yen.epi">Hưng Yên</option>
+                                    
+                                    <option value="KIEN_GIANG" data-url="/tin-dia-phuong/kien-giang.epi">Kiên Giang</option>
+                                    
+                                    <option value="KON_TUM" data-url="/tin-dia-phuong/kon-tum.epi">Kon Tum</option>
+                                    
+                                    <option value="KHANH_HOA" data-url="/tin-dia-phuong/khanh-hoa.epi">Khánh Hòa</option>
+                                    
+                                    <option value="LAI_CHAU" data-url="/tin-dia-phuong/lai-chau.epi">Lai Châu</option>
+                                    
+                                    <option value="LANG_SON" data-url="/tin-dia-phuong/lang-son.epi">Lạng Sơn</option>
+                                    
+                                    <option value="LAO_CAI" data-url="/tin-dia-phuong/lao-cai.epi">Lào Cai</option>
+                                    
+                                    <option value="LAM_DONG" data-url="/tin-dia-phuong/lam-dong.epi">Lâm Đồng</option>
+                                    
+                                    <option value="LONG_AN" data-url="/tin-dia-phuong/long-an.epi">Long An</option>
+                                    
+                                    <option value="NAM_DINH" data-url="/tin-dia-phuong/nam-dinh.epi">Nam Định</option>
+                                    
+                                    <option value="NINH_BINH" data-url="/tin-dia-phuong/ninh-binh.epi">Ninh Bình</option>
+                                    
+                                    <option value="NINH_THUAN" data-url="/tin-dia-phuong/ninh-thuan.epi">Ninh Thuận</option>
+                                    
+                                    <option value="NGHE_AN" data-url="/tin-dia-phuong/nghe-an.epi">Nghệ An</option>
+                                    
+                                    <option value="PHU_THO" data-url="/tin-dia-phuong/phu-tho.epi">Phú Thọ</option>
+                                    
+                                    <option value="PHU_YEN" data-url="/tin-dia-phuong/phu-yen.epi">Phú Yên</option>
+                                    
+                                    <option value="QUANG_BINH" data-url="/tin-dia-phuong/quang-binh.epi">Quảng Bình</option>
+                                    
+                                    <option value="QUANG_NAM" data-url="/tin-dia-phuong/quang-nam.epi">Quảng Nam</option>
+                                    
+                                    <option value="QUANG_NINH" data-url="/tin-dia-phuong/quang-ninh.epi">Quảng Ninh</option>
+                                    
+                                    <option value="QUANG_NGAI" data-url="/tin-dia-phuong/quang-ngai.epi">Quảng Ngãi</option>
+                                    
+                                    <option value="QUANG_TRI" data-url="/tin-dia-phuong/quang-tri.epi">Quảng Trị</option>
+                                    
+                                    <option value="SOC_TRANG" data-url="/tin-dia-phuong/soc-trang.epi">Sóc Trăng</option>
+                                    
+                                    <option value="SON_LA" data-url="/tin-dia-phuong/son-la.epi">Sơn La</option>
+                                    
+                                    <option value="TAY_NINH" data-url="/tin-dia-phuong/tay-ninh.epi">Tây Ninh</option>
+                                    
+                                    <option value="TIEN_GIANG" data-url="/tin-dia-phuong/tien-giang.epi">Tiền Giang</option>
+                                    
+                                    <option value="HO_CHI_MINH" data-url="/tin-dia-phuong/ho-chi-minh.epi">TP. HCM</option>
+                                    
+                                    <option value="THUA_THIEN_HUE" data-url="/tin-dia-phuong/thua-thien-hue.epi">TT Huế</option>
+                                    
+                                    <option value="TUYEN_QUANG" data-url="/tin-dia-phuong/tuyen-quang.epi">Tuyên Quang</option>
+                                    
+                                    <option value="THAI_BINH" data-url="/tin-dia-phuong/thai-binh.epi">Thái Bình</option>
+                                    
+                                    <option value="THAI_NGUYEN" data-url="/tin-dia-phuong/thai-nguyen.epi">Thái Nguyên</option>
+                                    
+                                    <option value="THANH_HOA" data-url="/tin-dia-phuong/thanh-hoa.epi">Thanh Hóa</option>
+                                    
+                                    <option value="TRA_VINH" data-url="/tin-dia-phuong/tra-vinh.epi">Trà Vinh</option>
+                                    
+                                    <option value="VINH_LONG" data-url="/tin-dia-phuong/vinh-long.epi">Vĩnh Long</option>
+                                    
+                                    <option value="VINH_PHUC" data-url="/tin-dia-phuong/vinh-phuc.epi">Vĩnh Phúc</option>
+                                    
+                                    <option value="YEN_BAI" data-url="/tin-dia-phuong/yen-bai.epi">Yên Bái</option>
+                                    
+                                    <option value="DAK_NONG" data-url="/tin-dia-phuong/dak-nong.epi">Đăk Nông</option>
+                                    
+                                    <option value="HAU_GIANG" data-url="/tin-dia-phuong/hau-giang.epi">Hậu Giang</option>
+                                    
+                                    <option value="DIEN_BIEN" data-url="/tin-dia-phuong/dien-bien.epi">Điện Biên</option>
+                                    
+                                </select>
+
+                                <div class="small-list">
+                                    <div class="news">
+                                        <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Chất lượng không khí được cải thiện.jpg" alt=""></div></a>
+                                        <div class="news__text">
+                                        <a class="news__heading-link" href=""><h2 class="news__heading">Chất lượng không khí ở Hà Nội được cải thiện</h2></a>
+                                            <div class="news__meta">
+                                                <a href="" class="news__meta-source">Hà Nội Mới</a>
+                                                <span class="news__meta-time">1 giờ</span>
+                                                <a href="" class="news__meta-relate"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="news">
+                                        <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Chất lượng không khí được cải thiện.jpg" alt=""></div></a>
+                                        <div class="news__text">
+                                        <a class="news__heading-link" href=""><h2 class="news__heading">Chất lượng không khí ở Hà Nội được cải thiện</h2></a>
+                                            <div class="news__meta">
+                                                <a href="" class="news__meta-source">Hà Nội Mới</a>
+                                                <span class="news__meta-time">1 giờ</span>
+                                                <a href="" class="news__meta-relate"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="news">
+                                        <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Chất lượng không khí được cải thiện.jpg" alt=""></div></a>
+                                        <div class="news__text">
+                                        <a class="news__heading-link" href=""><h2 class="news__heading">Chất lượng không khí ở Hà Nội được cải thiện</h2></a>
+                                            <div class="news__meta">
+                                                <a href="" class="news__meta-source">Hà Nội Mới</a>
+                                                <span class="news__meta-time">1 giờ</span>
+                                                <a href="" class="news__meta-relate"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="news">
+                                        <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Chất lượng không khí được cải thiện.jpg" alt=""></div></a>
+                                        <div class="news__text">
+                                        <a class="news__heading-link" href=""><h2 class="news__heading">Chất lượng không khí ở Hà Nội được cải thiện</h2></a>
+                                            <div class="news__meta">
+                                                <a href="" class="news__meta-source">Hà Nội Mới</a>
+                                                <span class="news__meta-time">1 giờ</span>
+                                                <a href="" class="news__meta-relate"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="news">
+                                        <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Chất lượng không khí được cải thiện.jpg" alt=""></div></a>
+                                        <div class="news__text">
+                                        <a class="news__heading-link" href=""><h2 class="news__heading">Chất lượng không khí ở Hà Nội được cải thiện</h2></a>
+                                            <div class="news__meta">
+                                                <a href="" class="news__meta-source">Hà Nội Mới</a>
+                                                <span class="news__meta-time">1 giờ</span>
+                                                <a href="" class="news__meta-relate"></a>
+                                            </div>
+                                        </div>
+                                    </div> 
+
+                                    
+                                    
+                                    <a href="" class="box4__seemore">Xem thêm</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- VIDEOS SIDEBAR -->
+                        <div class="side-bar__box5">
+                            <h2 class="big-heading">
+                                <a href="" class="big-heading__link"><span>VIDEO</span></a>
+                                
+                            </h2>
+
+                            <div class="grid-container">
+                                <div class="sidebar-grid">
+                                    <div class="news">
+                                        <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                        <div class="news__text">
+                                        <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                            <div class="news__meta">
+                                                <a href="" class="news__meta-source">VOA</a>
+                                                <span class="news__meta-time">2 giờ</span>
+                                                <a href="" class="news__meta-relate">40 liên quan</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="news">
+                                        <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                        <div class="news__text">
+                                        <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                            <div class="news__meta">
+                                                <a href="" class="news__meta-source">VOA</a>
+                                                <span class="news__meta-time">2 giờ</span>
+                                                <a href="" class="news__meta-relate">40 liên quan</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="news">
+                                        <a class="news__img-link" href=""><div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div></a>
+                                        <div class="news__text">
+                                        <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                            <div class="news__meta">
+                                                <a href="" class="news__meta-source">VOA</a>
+                                                <span class="news__meta-time">2 giờ</span>
+                                                <a href="" class="news__meta-relate">40 liên quan</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- PHOTOS SIDEBAR -->
+                        <div class="side-bar__box6">
+                            <h2 class="big-heading">
+                                <a href="" class="big-heading__link"><span>PHOTO</span></a>
+                                
+                            </h2>
+
+                            <div class="grid-container">
+                                <div class="sidebar-grid">
+                                    <div class="news">
+                                        <a class="news__img-link" href="">
+                                            <div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div>
+                                            <div class="side-2-imgs">
+                                                <div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div>
+                                                <div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div>
+                                            </div>
+                                        </a>
+                                        <div class="news__text">
+                                        <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                            <div class="news__meta">
+                                                <a href="" class="news__meta-source">VOA</a>
+                                                <span class="news__meta-time">2 giờ</span>
+                                                <a href="" class="news__meta-relate">40 liên quan</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="news">
+                                        <a class="news__img-link" href="">
+                                            <div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div>
+                                            <div class="side-2-imgs">
+                                                <div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div>
+                                                <div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div>
+                                            </div>
+                                        </a>
+                                        <div class="news__text">
+                                        <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                            <div class="news__meta">
+                                                <a href="" class="news__meta-source">VOA</a>
+                                                <span class="news__meta-time">2 giờ</span>
+                                                <a href="" class="news__meta-relate">40 liên quan</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="news">
+                                        <a class="news__img-link" href="">
+                                            <div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div>
+                                            <div class="side-2-imgs">
+                                                <div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div>
+                                                <div class="zoom-img-container"><img class="news__img" src="assets\imgs\Tổng thống trump bốc phét Mỹ đã vượt qua dịch.jpg" alt=""></div>
+                                            </div>
+                                        </a>
+                                        <div class="news__text">
+                                        <a class="news__heading-link" href=""><h2 class="news__heading">Tổng thống Trump tuyên bố Mỹ đã vượt qua đỉnh dịch Covid-19</h2></a>
+                                            <div class="news__meta">
+                                                <a href="" class="news__meta-source">VOA</a>
+                                                <span class="news__meta-time">2 giờ</span>
+                                                <a href="" class="news__meta-relate">40 liên quan</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- TIEN ICH SIDEBAR -->
+                        <div class="side-bar__box7">
+                            <h2 class="big-heading">
+                                <a href="" class="big-heading__link"><span>TIỆN ÍCH</span></a>
+                                
+                            </h2>
+
+                            <div class="grid-container">
+                                <div class="sidebar-grid">
+                                    <div class="weather-today">
+
+                                        <div class="temperature">
+                                            <svg style="width: 60; height: 60px;" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+                                                <defs>
+                                                    <style>
+                                                        .cls-1 {
+                                                            fill: #a3a3a3;
+                                                        }
+                                                        
+                                                        .cls-2 {
+                                                            fill: #e6e6e6;
+                                                        }
+                                                    </style>
+                                                </defs>
+                                                <title>Artboard 27</title>
+                                                <path class="cls-1" d="M114.8,48a46.8,46.8,0,0,0-38,19.6,30.61,30.61,0,0,0-12-2.4A31.79,31.79,0,0,0,34.4,88.4,32.06,32.06,0,0,0,4,120.4,31.41,31.41,0,0,0,35.6,152h126a34.4,34.4,0,0,0,0-68.8h-2A45.91,45.91,0,0,0,114.8,48Z" />
+                                                <path class="cls-2" d="M35.6,96.8a30.88,30.88,0,0,1,6,.8v-.8A23.31,23.31,0,0,1,65.2,73.6,23.77,23.77,0,0,1,80,78.8,37.38,37.38,0,0,1,114.8,56a37.93,37.93,0,0,1,38,36.4,31.2,31.2,0,0,1,8.8-1.6,26.4,26.4,0,0,1,0,52.8H35.6A23.06,23.06,0,0,1,12,120.4,23.64,23.64,0,0,1,35.6,96.8Z" />
+                                            </svg>
+                                            <div class="temperature-today">
+                                                <div class="average-temperature">25°</div>
+                                                <div class="temperature-zone">23° - 28°</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="more-info">
+                                            <p>Nhiều mây</p>
+                                            <p>Độ ẩm: 85%</p>
+                                            <p>Gió: 18km/h</p>
+                                            <p>Khả năng mưa: 3%</p>
+                                        </div>
+                                    </div>
+
+                                    <select class="weather__location" >
+                                        <option value="hanoi">Hà Nội</option>
+                                        <option value="tphochiminh">TP Hồ Chí Minh</option>
+                                        <option value="danang">Đà Nẵng</option>
+                                        <option value="angiang">An Giang</option>
+                                        <option value="bacgiang">Bắc Giang</option>
+                                        <option value="backan">Bắc Kạn</option>
+                                        <option value="baclieu">Bạc Liêu</option>
+                                        <option value="bacninh">Bắc Ninh</option>
+                                        <option value="bentre">Bến Tre</option>
+                                        <option value="binhdinh">Bình Định</option>
+                                        <option value="binhduong">Bình Dương</option>
+                                        <option value="binhphuoc">Bình Phước</option>
+                                        <option value="binhthuan">Bình Thuận</option>
+                                        <option value="camau">Cà Mau</option>
+                                        <option value="cantho">Cần Thơ</option>
+                                        <option value="caobang">Cao Bằng</option>
+                                        <option value="daklak">Đắk Lắk</option>
+                                        <option value="daknong">Đắk Nông</option>
+                                        <option value="dienbien">Điện Biên</option>
+                                        <option value="dongnai">Đồng Nai</option>
+                                        <option value="dongthap">Đồng Tháp</option>
+                                        <option value="gialai">Gia Lai</option>
+                                        <option value="hagiang">Hà Giang</option>
+                                        <option value="haiduong">Hải Dương</option>
+                                        <option value="haiphong">Hải Phòng</option>
+                                        <option value="hanam">Hà Nam</option>
+                                        <option value="hatinh">Hà Tĩnh</option>
+                                        <option value="haugiang">Hậu Giang</option>
+                                        <option value="hoabinh">Hòa Bình</option>
+                                        <option value="hungyen">Hưng Yên</option>
+                                        <option value="khanhhoa">Khánh Hòa</option>
+                                        <option value="kiengiang">Kiên Giang</option>
+                                        <option value="kontum">Kon Tum</option>
+                                        <option value="laichau">Lai Châu</option>
+                                        <option value="lamdong">Lâm Đồng</option>
+                                        <option value="langson">Lạng Sơn</option>
+                                        <option value="laocai">Lào Cai</option>
+                                        <option value="longan">Long An</option>
+                                        <option value="namdinh">Nam Định</option>
+                                        <option value="nghean">Nghệ An</option>
+                                        <option value="ninhbinh">Ninh Bình</option>
+                                        <option value="ninhthuan">Ninh Thuận</option>
+                                        <option value="phutho">Phú Thọ</option>
+                                        <option value="phuyen">Phú Yên</option>
+                                        <option value="quangbinh">Quảng Bình</option>
+                                        <option value="quangnam">Quảng Nam</option>
+                                        <option value="quangngai">Quảng Ngãi</option>
+                                        <option value="quangninh">Quảng Ninh</option>
+                                        <option value="quangtri">Quảng Trị</option>
+                                        <option value="soctrang">Sóc Trăng</option>
+                                        <option value="sonla">Sơn La</option>
+                                        <option value="tayninh">Tây Ninh</option>
+                                        <option value="thaibinh">Thái Bình</option>
+                                        <option value="thainguyen">Thái Nguyên</option>
+                                        <option value="thanhhoa">Thanh Hóa</option>
+                                        <option value="thuathienhue">Thừa Thiên Huế</option>
+                                        <option value="tiengiang">Tiền Giang</option>
+                                        <option value="travinh">Trà Vinh</option>
+                                        <option value="tuyenquang">Tuyên Quang</option>
+                                        <option value="vinhlong">Vĩnh Long</option>
+                                        <option value="vinhphuc">Vĩnh Phúc</option>
+                                        <option value="vungtau">Vũng Tàu</option>
+                                        <option value="yenbai">Yên Bái</option>
+                                    </select>
+
+                                    <div class="four-days-later-weather">
+                                        <div class="each-day-weather">
+                                            <p class="day">18/04</p>
+                                            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+                                                <defs>
+                                                    <style>
+                                                        .cls-1 {
+                                                            fill: #a3a3a3;
+                                                        }
+                                                        
+                                                        .cls-2 {
+                                                            fill: #e6e6e6;
+                                                        }
+                                                        
+                                                        .cls-3 {
+                                                            fill: #f83;
+                                                        }
+                                                        
+                                                        .cls-4 {
+                                                            fill: #ffb92f;
+                                                        }
+                                                    </style>
+                                                </defs>
+                                                <title>Artboard 31</title>
+                                                <path class="cls-1" d="M55.17,124.6a34.88,34.88,0,0,0-34.12,27.77C11.54,154.74,4,163.47,4,173.79A22,22,0,0,0,25.82,195.6H90.48a23.14,23.14,0,0,0,10.31-2.38,28.11,28.11,0,0,0-10.71-54,30.62,30.62,0,0,0-6,.79,34.69,34.69,0,0,0-29-15.47Z" />
+                                                <path class="cls-2" d="M109.92,167.44a20,20,0,0,0-19.83-20.23,18.85,18.85,0,0,0-9.52,2.38,26.83,26.83,0,0,0-52,9.92H26.21a13.88,13.88,0,0,0,0,27.77H90.88a18.69,18.69,0,0,0,6.74-1.59A19.57,19.57,0,0,0,109.92,167.44Z" />
+                                                <path class="cls-3" d="M160.69,99.6,196,70.25l-46.81-4L159.5,22.64,119,45.26,100.79,4.4,82.15,45.26,42.08,22.64,52.4,66.28l-46.81,4L40.89,99.6,5.59,129l19.83,1.59a41.25,41.25,0,0,1,27.37-12.69,47.34,47.34,0,0,1-3.57-18.64,51.57,51.57,0,0,1,103.14,0c0,22.21-13.88,40.86-33.72,48.4a49.37,49.37,0,0,1,4,7.93l36.89,21-10.31-43.64L196,129Z" />
+                                                <path class="cls-4" d="M100.79,56a43.65,43.65,0,0,0-39.27,62.68,42.07,42.07,0,0,1,25.39,14.28h3.17a35.24,35.24,0,0,1,22.61,8.33A43.45,43.45,0,0,0,100.79,56Z" />
+                                            </svg>
+                                            <p class="temp">23° - 31°</p>
+                                            <p class="stt">Sáng nhiều mây, chiều nắng ấm</p>
+                                        </div>
+
+                                        <div class="each-day-weather">
+                                            <p class="day">18/04</p>
+                                            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+                                                <defs>
+                                                    <style>
+                                                        .cls-1 {
+                                                            fill: #a3a3a3;
+                                                        }
+                                                        
+                                                        .cls-2 {
+                                                            fill: #e6e6e6;
+                                                        }
+                                                        
+                                                        .cls-3 {
+                                                            fill: #f83;
+                                                        }
+                                                        
+                                                        .cls-4 {
+                                                            fill: #ffb92f;
+                                                        }
+                                                    </style>
+                                                </defs>
+                                                <title>Artboard 31</title>
+                                                <path class="cls-1" d="M55.17,124.6a34.88,34.88,0,0,0-34.12,27.77C11.54,154.74,4,163.47,4,173.79A22,22,0,0,0,25.82,195.6H90.48a23.14,23.14,0,0,0,10.31-2.38,28.11,28.11,0,0,0-10.71-54,30.62,30.62,0,0,0-6,.79,34.69,34.69,0,0,0-29-15.47Z" />
+                                                <path class="cls-2" d="M109.92,167.44a20,20,0,0,0-19.83-20.23,18.85,18.85,0,0,0-9.52,2.38,26.83,26.83,0,0,0-52,9.92H26.21a13.88,13.88,0,0,0,0,27.77H90.88a18.69,18.69,0,0,0,6.74-1.59A19.57,19.57,0,0,0,109.92,167.44Z" />
+                                                <path class="cls-3" d="M160.69,99.6,196,70.25l-46.81-4L159.5,22.64,119,45.26,100.79,4.4,82.15,45.26,42.08,22.64,52.4,66.28l-46.81,4L40.89,99.6,5.59,129l19.83,1.59a41.25,41.25,0,0,1,27.37-12.69,47.34,47.34,0,0,1-3.57-18.64,51.57,51.57,0,0,1,103.14,0c0,22.21-13.88,40.86-33.72,48.4a49.37,49.37,0,0,1,4,7.93l36.89,21-10.31-43.64L196,129Z" />
+                                                <path class="cls-4" d="M100.79,56a43.65,43.65,0,0,0-39.27,62.68,42.07,42.07,0,0,1,25.39,14.28h3.17a35.24,35.24,0,0,1,22.61,8.33A43.45,43.45,0,0,0,100.79,56Z" />
+                                            </svg>
+                                            <p class="temp">23° - 31°</p>
+                                            <p class="stt">Sáng nhiều mây, chiều nắng ấm</p>
+                                        </div>
+
+                                        <div class="each-day-weather">
+                                            <p class="day">18/04</p>
+                                            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+                                                <defs>
+                                                    <style>
+                                                        .cls-1 {
+                                                            fill: #a3a3a3;
+                                                        }
+                                                        
+                                                        .cls-2 {
+                                                            fill: #e6e6e6;
+                                                        }
+                                                        
+                                                        .cls-3 {
+                                                            fill: #f83;
+                                                        }
+                                                        
+                                                        .cls-4 {
+                                                            fill: #ffb92f;
+                                                        }
+                                                    </style>
+                                                </defs>
+                                                <title>Artboard 31</title>
+                                                <path class="cls-1" d="M55.17,124.6a34.88,34.88,0,0,0-34.12,27.77C11.54,154.74,4,163.47,4,173.79A22,22,0,0,0,25.82,195.6H90.48a23.14,23.14,0,0,0,10.31-2.38,28.11,28.11,0,0,0-10.71-54,30.62,30.62,0,0,0-6,.79,34.69,34.69,0,0,0-29-15.47Z" />
+                                                <path class="cls-2" d="M109.92,167.44a20,20,0,0,0-19.83-20.23,18.85,18.85,0,0,0-9.52,2.38,26.83,26.83,0,0,0-52,9.92H26.21a13.88,13.88,0,0,0,0,27.77H90.88a18.69,18.69,0,0,0,6.74-1.59A19.57,19.57,0,0,0,109.92,167.44Z" />
+                                                <path class="cls-3" d="M160.69,99.6,196,70.25l-46.81-4L159.5,22.64,119,45.26,100.79,4.4,82.15,45.26,42.08,22.64,52.4,66.28l-46.81,4L40.89,99.6,5.59,129l19.83,1.59a41.25,41.25,0,0,1,27.37-12.69,47.34,47.34,0,0,1-3.57-18.64,51.57,51.57,0,0,1,103.14,0c0,22.21-13.88,40.86-33.72,48.4a49.37,49.37,0,0,1,4,7.93l36.89,21-10.31-43.64L196,129Z" />
+                                                <path class="cls-4" d="M100.79,56a43.65,43.65,0,0,0-39.27,62.68,42.07,42.07,0,0,1,25.39,14.28h3.17a35.24,35.24,0,0,1,22.61,8.33A43.45,43.45,0,0,0,100.79,56Z" />
+                                            </svg>
+                                            <p class="temp">23° - 31°</p>
+                                            <p class="stt">Sáng nhiều mây, chiều nắng ấm</p>
+                                        </div>
+
+                                        <div class="each-day-weather">
+                                            <p class="day">18/04</p>
+                                            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+                                                <defs>
+                                                    <style>
+                                                        .cls-1 {
+                                                            fill: #a3a3a3;
+                                                        }
+                                                        
+                                                        .cls-2 {
+                                                            fill: #e6e6e6;
+                                                        }
+                                                        
+                                                        .cls-3 {
+                                                            fill: #f83;
+                                                        }
+                                                        
+                                                        .cls-4 {
+                                                            fill: #ffb92f;
+                                                        }
+                                                    </style>
+                                                </defs>
+                                                <title>Artboard 31</title>
+                                                <path class="cls-1" d="M55.17,124.6a34.88,34.88,0,0,0-34.12,27.77C11.54,154.74,4,163.47,4,173.79A22,22,0,0,0,25.82,195.6H90.48a23.14,23.14,0,0,0,10.31-2.38,28.11,28.11,0,0,0-10.71-54,30.62,30.62,0,0,0-6,.79,34.69,34.69,0,0,0-29-15.47Z" />
+                                                <path class="cls-2" d="M109.92,167.44a20,20,0,0,0-19.83-20.23,18.85,18.85,0,0,0-9.52,2.38,26.83,26.83,0,0,0-52,9.92H26.21a13.88,13.88,0,0,0,0,27.77H90.88a18.69,18.69,0,0,0,6.74-1.59A19.57,19.57,0,0,0,109.92,167.44Z" />
+                                                <path class="cls-3" d="M160.69,99.6,196,70.25l-46.81-4L159.5,22.64,119,45.26,100.79,4.4,82.15,45.26,42.08,22.64,52.4,66.28l-46.81,4L40.89,99.6,5.59,129l19.83,1.59a41.25,41.25,0,0,1,27.37-12.69,47.34,47.34,0,0,1-3.57-18.64,51.57,51.57,0,0,1,103.14,0c0,22.21-13.88,40.86-33.72,48.4a49.37,49.37,0,0,1,4,7.93l36.89,21-10.31-43.64L196,129Z" />
+                                                <path class="cls-4" d="M100.79,56a43.65,43.65,0,0,0-39.27,62.68,42.07,42.07,0,0,1,25.39,14.28h3.17a35.24,35.24,0,0,1,22.61,8.33A43.45,43.45,0,0,0,100.79,56Z" />
+                                            </svg>
+                                            <p class="temp">23° - 31°</p>
+                                            <p class="stt">Sáng nhiều mây, chiều nắng ấm</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="utilities__info">
+                                        <div class="column1">
+                                            <a href="">Thời tiết</a>
+                                            <a href="">Tỷ giá ngoại tệ</a>
+                                            <a href="">Kết quả sổ xố</a>
+                                            <a href="">Lịch truyền hình</a>
+                                            <a href="">Cung hoàng đạo</a>
+                                            <a href="">Bảng giá xe ô tô</a>
+                                        </div>
+                                        <div class="column2">
+                                            <a href="">Lịch vạn niên</a>
+                                            <a href="">Giá vàng</a>
+                                            <a href="">Chứng khoán</a>
+                                            <a href="">Lịch chiếu phim</a>
+                                            <a href="">Giá xăng, dầu</a>
+                                            <a href="">Bảng giá xe máy</a>
+                                        </div>
+                                    </div>
+
+                                    
+
+                                    
+                                </div> 
+                            </div>  
+
+                        </div>
+
+                        <!-- XU HUONG SIDEBAR -->
+
+                        <div class="side-bar__box8">
+                            <h2 class="big-heading">
+                                <a href="" class="big-heading__link"><span>XU HƯỚNG</span></a>
+                                
+                            </h2>
+
+                            <div class="grid-container">
+                                <div class="sidebar-grid">
+                                    <span class="down lv1">
+                                        <a href="" class="box8__link">Trump</a>
+                                    </span>
+                                    <span class="up lv2">
+                                        <a href="" class="box8__link">CORONA</a>
+                                    </span>
+                                    <span class="down lv20">
+                                        <a href="" class="box8__link">SARS-COV-2</a>
+                                    </span>
+                                    <span class="down lv3">
+                                        <a href="" class="box8__link">chống người thi hành công vụ</a>
+                                    </span>
+                                    <span class="up lv7">
+                                        <a href="" class="box8__link">iPhone SE 2020</a>
+                                    </span>
+                                    <span class="down lv6">
+                                        <a href="" class="box8__link">Thành ủy Hà Tĩnh</a>
+                                    </span>
+                                    <span class="down lv17">
+                                        <a href="" class="box8__link">vi-rút</a>
+                                    </span>
+                                    <span class="up lv16">
+                                        <a href="" class="box8__link">tổng cục hải quan</a>
+                                    </span>
+                                    <span class="down lv19">
+                                        <a href="" class="box8__link">ATM</a>
+                                    </span>
+                                    <span class="up lv9">
+                                        <a href="" class="box8__link">online</a>
+                                    </span>
+                                    <span class="down lv5">
+                                        <a href="" class="box8__link">bộ y tế</a>
+                                    </span>
+                                    <span class="up lv12">
+                                        <a href="" class="box8__link">vũ hán</a>
+                                    </span>
+                                    <span class="up lv10">
+                                        <a href="" class="box8__link">chống dịch Covid-19</a>
+                                    </span>
+                                    <span class="up lv15">
+                                        <a href="" class="box8__link">Lưu Văn Thanh</a>
+                                    </span>
+                                    <span class="down lv18">
+                                        <a href="" class="box8__link">bộ công thương</a>
+                                    </span>
+                                    <span class="up lv4">
+                                        <a href="" class="box8__link">World Cup 2022</a>
+                                    </span>
+                                    <span class="down lv8">
+                                        <a href="" class="box8__link">Nguyễn Hồng Lĩnh</a>
+                                    </span>
+                                    <span class="up lv11">
+                                        <a href="" class="box8__link">HĐND huyện Hớn Quản</a>
+                                    </span>
+                                    <span class="down lv13">
+                                        <a href="" class="box8__link">TP.HCM</a>
+                                    </span>
+                                    <span class="up lv14">
+                                        <a href="" class="box8__link">Phòng chống dịch Covid-19</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="side-bar__advertisement">
+                            <div class="sidebar-grid">
+                                <a href=""><img class="samsung-ads-img" src="assets\imgs\ads-samsung.png" alt="samsung ads"></a>
+                            </div>
+                            
+
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div style="margin-bottom:15px" class="footer__bar">
+                <div class="grid">
+                    <a href=""><img src="assets\imgs\baomoilogofooter1.png" alt="" class="footer__logo"></a>
+                    <div class="footer__search">
+                        <input class="footer__search-input" type="text" placeholder="Nhập nội dung tìm kiếm">
+                        <button class="footer__search-btn">
+                            <i class="footer__search-icon fas fa-search "></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="grid">
+                    <div class="box1">
+                        <a href="/tag/Lee-Min-Ho.epi">
+                            Lee Min Ho
+                        </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Phan-Huy-Ngọc.epi">
+                                                    Phan Huy Ngọc
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Nguyễn-Hồng-Lĩnh.epi">
+                                                    Nguyễn Hồng Lĩnh
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/BN172.epi">
+                                                    BN172
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/TP.HCM.epi">
+                                                    TP.HCM
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Tiến-Linh.epi">
+                                                    Tiến Linh
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Phòng-chống-dịch-Covid_19.epi">
+                                                    Phòng chống dịch Covid-19
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Bộ-tài-chính.epi">
+                                                    Bộ tài chính
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/KING.epi">
+                                                    KING
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Đường-Nhuệ.epi">
+                                                    Đường Nhuệ
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/HĐND-huyện-Hớn-Quản.epi">
+                                                    HĐND huyện Hớn Quản
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/ATM.epi">
+                                                    ATM
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/World-Cup-2022.epi">
+                                                    World Cup 2022
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Liên-đoàn-bóng-đá-châu-á.epi">
+                                                    Liên đoàn bóng đá châu á
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Bộ-công-thương.epi">
+                                                    Bộ công thương
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Mỹ.epi">
+                                                    Mỹ
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Chống-người-thi-hành-công-vụ.epi">
+                                                    Chống người thi hành công vụ
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Lưu-Văn-Thanh.epi">
+                                                    Lưu Văn Thanh
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/CORONA.epi">
+                                                    CORONA
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Online.epi">
+                                                    Online
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Cửa-khẩu-tân-thanh.epi">
+                                                    Cửa khẩu tân thanh
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Thành-ủy-Hà-Tĩnh.epi">
+                                                    Thành ủy Hà Tĩnh
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Cuba.epi">
+                                                    Cuba
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Vũ-hán.epi">
+                                                    Vũ hán
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Tuyển-việt-nam.epi">
+                                                    Tuyển việt nam
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Trung-Quốc-Chung-Sơn.epi">
+                                                    Trung Quốc Chung Sơn
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Chống-dịch-Covid_19.epi">
+                                                    Chống dịch Covid-19
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/BN173.epi">
+                                                    BN173
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Huỳnh-Hồng-Loan.epi">
+                                                    Huỳnh Hồng Loan
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Nắng-nóng.epi">
+                                                    Nắng nóng
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Trái-phép.epi">
+                                                    Trái phép
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Mai-Phương.epi">
+                                                    Mai Phương
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Vi_rút.epi">
+                                                    Vi-rút
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Lee-Gon.epi">
+                                                    Lee Gon
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Tổng-cục-hải-quan.epi">
+                                                    Tổng cục hải quan
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Bệnh-viện-Bệnh-Nhiệt.epi">
+                                                    Bệnh viện Bệnh Nhiệt
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Hồng-Loan.epi">
+                                                    Hồng Loan
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Vũ-Đức-Đam.epi">
+                                                    Vũ Đức Đam
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Hạ-Lôi.epi">
+                                                    Hạ Lôi
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/IPhone-SE-2020.epi">
+                                                    IPhone SE 2020
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Quân-Vương-Bất-Diệt.epi">
+                                                    Quân Vương Bất Diệt
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/BN169.epi">
+                                                    BN169
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Trump.epi">
+                                                    Trump
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Viêm-đường-hô-hấp.epi">
+                                                    Viêm đường hô hấp
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/M.U.epi">
+                                                    M.U
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Lianys-Torres-Rivera.epi">
+                                                    Lianys Torres Rivera
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Thôn-Hạ-Lôi.epi">
+                                                    Thôn Hạ Lôi
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Trung-Quốc.epi">
+                                                    Trung Quốc
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/SARS_COV_2.epi">
+                                                    SARS-COV-2
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/WHO.epi">
+                                                    WHO
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Bộ-y-tế.epi">
+                                                    Bộ y tế
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Chợ-đầu-mối-Long-Biên.epi">
+                                                    Chợ đầu mối Long Biên
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Công-ty-Đức-Anh.epi">
+                                                    Công ty Đức Anh
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Việt-nam.epi">
+                                                    Việt nam
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Đại-học-quốc-gia-hà-nội.epi">
+                                                    Đại học quốc gia hà nội
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Nguyễn-Bá-Dũng.epi">
+                                                    Nguyễn Bá Dũng
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Bộ-giáo-dục-và-đào-tạo.epi">
+                                                    Bộ giáo dục và đào tạo
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Trần-Tuấn-Anh.epi">
+                                                    Trần Tuấn Anh
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Chợ-Long-Biên.epi">
+                                                    Chợ Long Biên
+                                                </a>
+
+                        <span>•</span>
+
+                        <a href="/tag/Bộ-GD.epi">
+                                                    Bộ GD
+                                                </a>        
+                    </div>
+                    <div class="box2">
+                        <div class="box2-left">
+                           <div class="column1">
+                                <h4><a href="">PHIÊN BẢN KHÁC</a></h4>
+                                <div>
+                                    <p><a href="">Báo mới APPS </a></p>
+                                    <p><a href="">Báo mới BÓNG ĐÁ</a> </p>
+                                    <p><a href="">Báo mới TỔNG HỢP</a> </p>
+                                </div>
+                            </div> 
+
+                            <div class="column2">
+                                <h4><a href="">LIÊN HỆ</a></h4>
+                                <div>
+                                    <p><a href="">Giới thiệu</a></p>
+                                    <p><a href="">Điều khoản sử dụng</a></p>
+                                    <p><a href="">Quảng cáo</a></p>
+                                </div>
+                            </div>
+                            <div class="column2">
+
+                            </div>
+                        </div>
+
+                        <div class="box2-right">
+                            <p>
+                                Giấy phép số 1818/GP-TTĐT do Sở Thông tin và Truyền thông Hà Nội cấp ngày 05/05/2017
+                                Đơn vị chủ quản: Công ty Cổ phần Công nghệ EPI * Chịu trách nhiệm: Nguyễn Thanh Tùng
+                                Địa chỉ: Tầng 5, Tòa nhà Báo Sinh Viên VN, D29 Phạm Văn Bạch, Yên Hòa, Cầu Giấy, Hà Nội
+                                Tel: (024) 3-212-3232, số máy lẻ 2947. contact.baomoi@epi.com.vn
+                            </p>
+                            <p>
+                                BÁO MỚI tổng hợp và sắp xếp các thông tin tự động
+                                <br>
+                                bởi chương trình máy tính
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+
+    
+    <script src="js.js"></script>
+</body>
+</html>
